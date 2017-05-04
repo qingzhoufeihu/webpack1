@@ -1,3 +1,3 @@
 //main.js 
-var greeter = require('./Greeter.js');
+import { greeter } from "./greeter.ts";
 document.getElementById('root').appendChild(greeter());
