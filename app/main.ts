@@ -1,3 +1,5 @@
-//main.js 
 import { greeter } from "./greeter.ts";
-document.getElementById('root').appendChild(greeter());
+
+var user = "Jane User";
+
+document.body.innerHTML = greeter(user); 
